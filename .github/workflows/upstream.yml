@@ -17,7 +17,8 @@ on:
   watch:
     types: started
   repository_dispatch:
-
+  workflow_dispatch:
+ 
 jobs:
   merge:
     if: github.event.repository.owner.id == '39034260'
